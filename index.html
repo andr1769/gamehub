@@ -7,6 +7,7 @@
   <title>GAMEHUB — пошук напарників для co-op ігор</title>
   <link rel="stylesheet" href="css/style.css">
   <script src="js/background-video.js" defer></script>
+  <script src="js/feedback-demo.js" defer></script>
 </head>
 <body id="top">
   <a class="skip" href="#main">Перейти до вмісту</a>
@@ -255,8 +256,8 @@
 
     <section class="section container" id="feedback" aria-labelledby="feedback-title" tabindex="-1">
       <h2 id="feedback-title">Зворотний зв’язок</h2>
-      <p id="feedback-note" class="section-note">Запропонуй поліпшення або запитай про пакет. Якщо питання про тариф, зазнач його назву в повідомленні. Для тестового надсилання запусти локальний сервер.</p>
-      <form class="feedback-form" method="post" action="/feedback" aria-describedby="feedback-note">
+      <p id="feedback-note" class="section-note">Демонстраційна форма. Використовуй вигадані дані. Перевірка заповнення відбувається у браузері.</p>
+      <form class="feedback-form" method="post" aria-describedby="feedback-note">
         <fieldset>
           <legend>Контакти</legend>
           <div class="form-row">
@@ -304,7 +305,8 @@
           Погоджуюся зберегти ці тестові дані на цьому ПК.
         </label>
         <p class="field-hint">Для демонстрації введи вигадані контакти. Сервер формує локальний файл листа.</p>
-        <button class="button button-primary feedback-submit" type="submit">Надіслати тестову заявку</button>
+        <button class="button button-primary feedback-submit" type="submit" disabled>Перевірити тестову заявку</button>
+        <p id="feedback-status" role="status"></p>
       </form>
     </section>
   </main>
