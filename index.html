@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GAMEHUB допомагає україномовним гравцям знаходити напарників для кооперативних ігор, переглядати оголошення команд і відкривати тематичні спільноти.">
+  <title>GAMEHUB — пошук напарників для co-op ігор</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/background-video.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip" href="#main">Перейти до вмісту</a>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="#top"><span aria-hidden="true">G</span>GAMEHUB</a>
+      <nav class="desktop-nav" aria-label="Основна навігація">
+        <ul class="nav-list">
+          <li><a href="#teams">Шукають команду</a></li>
+          <li><a href="#roulette">Co-op рулетка</a></li>
+          <li><a href="#communities">Спільноти</a></li>
+          <li><a href="#game-week">Гра тижня</a></li>
+          <li><a href="#pricing">Пакети</a></li>
+          <li><a href="#feedback">Зворотний зв’язок</a></li>
+        </ul>
+      </nav>
+      <a class="button button-primary header-cta" href="#teams">Оголошення</a>
+      <form class="menu-trigger" action="#mobile-menu">
+        <button type="submit" class="menu-toggle" aria-label="Меню GAMEHUB" aria-controls="mobile-menu">
+          <span aria-hidden="true"></span>
+        </button>
+      </form>
+      <nav id="mobile-menu" class="mobile-menu" tabindex="-1" aria-label="Мобільна навігація">
+        <div class="menu-top">
+          <strong>Меню</strong>
+          <form action="#top">
+            <button type="submit" class="menu-close" aria-label="Закрити меню">×</button>
+          </form>
+        </div>
+        <ul class="menu-items">
+          <li><a href="#teams">Шукають команду</a></li>
+          <li><a href="#roulette">Co-op рулетка</a></li>
+          <li><a href="#communities">Спільноти</a></li>
+          <li><a href="#game-week">Гра тижня</a></li>
+          <li><a href="#pricing">Пакети</a></li>
+          <li><a href="#feedback">Зворотний зв’язок</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-row">
+        <div class="hero-content">
+          <p class="eyebrow">Co-op платформа для гравців</p>
+          <h1 id="hero-title">Не грай сам. Знайди собі напарника</h1>
+          <p class="intro">Оголошення про пошук команди, спільноти за іграми та приклад підбору напарника за мовою й часом гри.</p>
+          <div class="button-row">
+            <a class="button button-primary" href="#roulette">Знайти напарника</a>
+            <a class="button button-outline" href="#communities">Переглянути спільноти</a>
+          </div>
+          <dl class="stats" aria-label="Приклад статистики платформи">
+            <div><dt>Гравців онлайн</dt><dd>12 480</dd></div>
+            <div><dt>Шукають команду</dt><dd>1 240</dd></div>
+            <div><dt>Спільнот</dt><dd>380</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="teams" aria-labelledby="teams-title">
+      <h2 id="teams-title">Зараз шукають команду</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="card-photo"><img src="img/gh-team-helldivers.webp" alt="Бій загону в Helldivers 2" width="616" height="353" loading="lazy"></div>
+          <div class="card-body">
+            <p class="eyebrow">Helldivers 2</p>
+            <h3>Потрібно ще 2 гравці</h3>
+            <p class="host">Squad47</p>
+            <ul class="tags"><li>UA</li><li>20:00</li><li>Мікрофон</li></ul>
+            <a class="button button-outline" href="#roulette">Знайти напарника<span class="sr-only"> для Helldivers 2</span></a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="img/gh-team-dyinglight.webp" alt="Міський пейзаж у Dying Light 2" width="616" height="353" loading="lazy"></div>
+          <div class="card-body">
+            <p class="eyebrow">Dying Light 2</p>
+            <h3>Потрібен 1 гравець</h3>
+            <p class="host">VortexUA</p>
+            <ul class="tags"><li>UA</li><li>21:00</li><li>Мікрофон</li></ul>
+            <a class="button button-outline" href="#roulette">Знайти напарника<span class="sr-only"> для Dying Light 2</span></a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="img/gh-team-forest.webp" alt="Лісове поселення у The Forest" width="616" height="353" loading="lazy"></div>
+          <div class="card-body">
+            <p class="eyebrow">The Forest</p>
+            <h3>Потрібно ще 3 гравці</h3>
+            <p class="host">Lisova</p>
+            <ul class="tags"><li>UA</li><li>19:30</li><li>Без мікрофона</li></ul>
+            <a class="button button-outline" href="#roulette">Знайти напарника<span class="sr-only"> для The Forest</span></a>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="img/gh-team-lethal.webp" alt="Обкладинка Lethal Company" width="616" height="353" loading="lazy"></div>
+          <div class="card-body">
+            <p class="eyebrow">Lethal Company</p>
+            <h3>Потрібно ще 2 гравці</h3>
+            <p class="host">Oleh_K</p>
+            <ul class="tags"><li>UA</li><li>22:00</li><li>Мікрофон</li></ul>
+            <a class="button button-outline" href="#roulette">Знайти напарника<span class="sr-only"> для Lethal Company</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="roulette" aria-labelledby="roulette-title">
+      <div class="roulette">
+        <div class="roulette-intro">
+          <p class="eyebrow">Co-op рулетка</p>
+          <h2 id="roulette-title">Випадковий напарник із тих, хто тобі підходить</h2>
+          <p>Спільні ігри, українська мова та зручний для обох час гри.</p>
+          <dl class="criteria">
+            <div><dt>Гра</dt><dd>Будь-яка з моїх</dd></div>
+            <div><dt>Мова</dt><dd>Українська</dd></div>
+          </dl>
+          <a class="button button-primary" href="#match">Переглянути приклад підбору</a>
+        </div>
+        <article class="match" id="match">
+          <p class="eyebrow">Приклад результату</p>
+          <h3>VortexUA</h3>
+          <p class="match-score">89% сумісності</p>
+          <p>Онлайн · грає в Dying Light 2</p>
+          <ul class="tags"><li>Dying Light 2</li><li>The Forest</li><li>Helldivers 2</li><li>Minecraft</li></ul>
+          <ul class="tags"><li>UA</li><li>Мікрофон</li><li>19:00–00:00</li></ul>
+          <a class="button button-outline" href="#teams">До оголошень</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="communities" aria-labelledby="communities-title">
+      <h2 id="communities-title">Популярні спільноти</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="card-photo"><img src="img/gh-comm-dyinglight.webp" alt="Кадр Dying Light 2" width="600" height="337" loading="lazy"></div>
+          <div class="card-body">
+            <h3>Dying Light Ukraine</h3>
+            <p>Паркур, нічні рейди та проходження сюжету разом.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="img/gh-comm-helldivers.webp" alt="Обкладинка Helldivers 2" width="600" height="337" loading="lazy"></div>
+          <div class="card-body">
+            <h3>Helldivers UA Squad</h3>
+            <p>Збираємо загони на високу складність щовечора.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-photo"><img src="img/gh-comm-minecraft.webp" alt="Краєвид Minecraft" width="760" height="507" loading="lazy"></div>
+          <div class="card-body">
+            <h3>Minecraft Survival UA</h3>
+            <p>Спільний сервер, будівництво і виживання.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="week-feature" id="game-week" aria-labelledby="week-title">
+      <video id="week-video" class="week-media" data-src="video/helldivers-loop.mp4"
+        poster="img/helldivers-poster.webp" preload="none" autoplay muted loop playsinline aria-hidden="true"></video>
+      <div class="container week-content">
+        <div class="week-info">
+          <p class="eyebrow">Co-op гра тижня</p>
+          <h2 id="week-title">Helldivers 2</h2>
+          <p>Збери загін до чотирьох гравців для спільних місій на ПК і PS5.</p>
+          <dl class="facts">
+            <div><dt>Гравців</dt><dd>До 4</dd></div>
+            <div><dt>Режим</dt><dd>Online co-op</dd></div>
+            <div><dt>Crossplay</dt><dd>PC · PS5</dd></div>
+          </dl>
+          <div class="button-row">
+            <a class="button button-primary" href="#teams">Знайти команду</a>
+            <button id="week-video-toggle" class="button button-outline media-toggle" type="button" aria-controls="week-video" hidden>Відтворити фон</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section container" id="schedule" aria-labelledby="schedule-title">
+      <h2 id="schedule-title">Розклад кооперативних сесій</h2>
+      <p id="schedule-hint" class="section-note">На вузькому екрані таблицю можна прокручувати вбік.</p>
+      <div class="table-scroll" role="region" aria-labelledby="schedule-title" aria-describedby="schedule-hint" tabindex="0">
+        <table class="schedule">
+          <caption>Демонстраційний розклад команд · час за Києвом</caption>
+          <thead>
+            <tr>
+              <th scope="col">Гра</th>
+              <th scope="col">Організатор</th>
+              <th scope="col">Початок</th>
+              <th scope="col">Вільні місця</th>
+              <th scope="col">Голосовий чат</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Helldivers 2</th><td>Squad47</td><td>20:00</td><td>2</td><td>Так</td></tr>
+            <tr><th scope="row">Dying Light 2</th><td>VortexUA</td><td>21:00</td><td>1</td><td>Так</td></tr>
+            <tr><th scope="row">The Forest</th><td>Lisova</td><td>19:30</td><td>3</td><td>За бажанням</td></tr>
+            <tr><th scope="row">Lethal Company</th><td>Oleh_K</td><td>22:00</td><td>2</td><td>Так</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section container" id="pricing" aria-labelledby="pricing-title">
+      <h2 id="pricing-title">Пакети GAMEHUB</h2>
+      <p class="section-note">Демонстраційні тарифи. Запитай про пакет через форму зворотного зв’язку.</p>
+      <div class="plan-list">
+        <article class="card plan plan--featured" aria-labelledby="plan-squad-title">
+          <div class="plan-head">
+            <h3 id="plan-squad-title">Загін</h3>
+            <span class="plan-badge">Рекомендований</span>
+          </div>
+          <p class="plan-price">99 ₴ <span>/ місяць</span></p>
+          <ul class="plan-features">
+            <li>Усе з пакета «Старт»</li>
+            <li>До 10 активних оголошень</li>
+            <li>Фільтри підбору за мовою і часом</li>
+            <li>Збережені добірки команд</li>
+          </ul>
+          <a class="button button-accent" href="#feedback">Запитати про «Загін»</a>
+        </article>
+
+        <article class="card plan plan--start" aria-labelledby="plan-start-title">
+          <div class="plan-head"><h3 id="plan-start-title">Старт</h3></div>
+          <p class="plan-price">0 ₴ <span>/ місяць</span></p>
+          <ul class="plan-features">
+            <li>Перегляд оголошень та спільнот</li>
+            <li>Одне активне оголошення</li>
+            <li>Базовий підбір напарників</li>
+          </ul>
+          <a class="button button-outline" href="#feedback">Запитати про «Старт»</a>
+        </article>
+
+        <article class="card plan" aria-labelledby="plan-community-title">
+          <div class="plan-head"><h3 id="plan-community-title">Спільнота</h3></div>
+          <p class="plan-price">199 ₴ <span>/ місяць</span></p>
+          <ul class="plan-features">
+            <li>Усе з пакета «Загін»</li>
+            <li>До 25 активних оголошень</li>
+            <li>Окрема сторінка спільноти</li>
+            <li>Розклад ігрових сесій</li>
+          </ul>
+          <a class="button button-primary" href="#feedback">Запитати про «Спільноту»</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="feedback" aria-labelledby="feedback-title" tabindex="-1">
+      <h2 id="feedback-title">Зворотний зв’язок</h2>
+      <p id="feedback-note" class="section-note">Запропонуй поліпшення або запитай про пакет. Якщо питання про тариф, зазнач його назву в повідомленні. Для тестового надсилання запусти локальний сервер.</p>
+      <form class="feedback-form" method="post" action="/feedback" aria-describedby="feedback-note">
+        <fieldset>
+          <legend>Контакти</legend>
+          <div class="form-row">
+            <div>
+              <label for="feedback-name">Ім’я або нікнейм</label>
+              <input class="form-field" id="feedback-name" name="name" type="text" autocomplete="nickname" minlength="2" maxlength="60" required>
+            </div>
+            <div>
+              <label for="feedback-email">Електронна пошта</label>
+              <input class="form-field" id="feedback-email" name="email" type="email" autocomplete="email" maxlength="120" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div>
+              <label for="feedback-phone">Телефон (необов’язково)</label>
+              <input class="form-field" id="feedback-phone" name="phone" type="tel" autocomplete="tel"
+                pattern="\+380[0-9]{9}" title="Формат +380 і дев’ять цифр" aria-describedby="phone-help">
+              <p class="field-hint" id="phone-help">Формат: +380XXXXXXXXX.</p>
+            </div>
+            <div>
+              <label for="feedback-topic">Тема звернення</label>
+              <select class="form-field" id="feedback-topic" name="topic" required>
+                <option value="">Обери тему</option>
+                <option value="idea">Ідея для сайту</option>
+                <option value="issue">Помилка на сайті</option>
+                <option value="question">Загальне запитання</option>
+                <option value="plan">Питання про пакет</option>
+              </select>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Спосіб відповіді</legend>
+          <div class="choice-row">
+            <label for="reply-email"><input id="reply-email" name="reply" type="radio" value="email" checked> Поштою</label>
+            <label for="reply-none"><input id="reply-none" name="reply" type="radio" value="none"> Без відповіді</label>
+          </div>
+        </fieldset>
+        <label for="feedback-message">Повідомлення</label>
+        <textarea class="form-field" id="feedback-message" name="message" rows="5" minlength="10" maxlength="500"
+          aria-describedby="message-help" required></textarea>
+        <p class="field-hint" id="message-help">Від 10 до 500 символів.</p>
+        <label class="consent" for="feedback-consent">
+          <input id="feedback-consent" name="consent" value="yes" type="checkbox" required>
+          Погоджуюся зберегти ці тестові дані на цьому ПК.
+        </label>
+        <p class="field-hint">Для демонстрації введи вигадані контакти. Сервер формує локальний файл листа.</p>
+        <button class="button button-primary feedback-submit" type="submit">Надіслати тестову заявку</button>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-row">
+        <div>
+          <a class="brand" href="#top"><span aria-hidden="true">G</span>GAMEHUB</a>
+          <p>Пошук напарників і спільнот у кооперативних іграх.</p>
+        </div>
+        <nav aria-label="Навігація в підвалі">
+          <p class="footer-heading">Платформа</p>
+          <ul><li><a href="#teams">Команди</a></li><li><a href="#roulette">Рулетка</a></li><li><a href="#communities">Спільноти</a></li><li><a href="#schedule">Розклад</a></li><li><a href="#feedback">Зворотний зв’язок</a></li></ul>
+        </nav>
+        <div>
+          <p class="footer-heading">Про проєкт</p>
+          <p>Навчальний макет. Оголошення й результат підбору демонстраційні.</p>
+        </div>
+      </div>
+      <p class="copyright">© 2026 GAMEHUB</p>
+    </div>
+  </footer>
+</body>
+</html>
